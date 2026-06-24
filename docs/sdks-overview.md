@@ -2,7 +2,7 @@
 
 Native and cross-platform publisher SDKs. Shared API surface: [docs/SDK_API.md](../docs/SDK_API.md).
 
-**Public mirror (publishers):** [github.com/DKMads-Codocs/dkmads-mmp-sdk](https://github.com/DKMads-Codocs/dkmads-mmp-sdk)  
+**Public mirror (publishers):** [github.com/DKMads-Codocs/dkmads-dmp-sdk](https://github.com/DKMads-Codocs/dkmads-dmp-sdk)  
 **Live docs:** [dmp.dkmads.com/docs](https://dmp.dkmads.com/docs)  
 **Sync:** `./scripts/publish-dmp-sdk-mirror.sh 0.1.0 --push` — see [MIRROR.md](./MIRROR.md)
 
