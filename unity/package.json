@@ -1,0 +1,19 @@
+{
+  "name": "com.dkmads.dmp",
+  "version": "0.1.0",
+  "displayName": "DKMads DMP SDK",
+  "description": "DKMads Data Management Platform SDK for Unity",
+  "unity": "2021.3",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Identity Handoff",
+      "description": "DMP init and SSP shared identity wiring",
+      "path": "Samples~/IdentityHandoff"
+    }
+  ],
+  "author": {
+    "name": "DKMads",
+    "url": "https://dmp.dkmads.com"
+  }
+}

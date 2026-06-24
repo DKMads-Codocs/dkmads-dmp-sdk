@@ -1,0 +1,11 @@
+{
+  "name": "dkmads-mmp-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DKMads DMP SDK — public mirror for publisher integration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DKMads-Codocs/dkmads-mmp-sdk.git"
+  },
+  "homepage": "https://dmp.dkmads.com/docs"
+}

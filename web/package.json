@@ -1,0 +1,31 @@
+{
+  "name": "@dkmads/dmp-sdk",
+  "version": "0.1.0",
+  "description": "DKMads DMP Web SDK — framework-agnostic audience collection",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "size": "pnpm build && gzip -c dist/index.js | wc -c"
+  },
+  "dependencies": {
+    "@dkmads/sdk-core": "workspace:*",
+    "@dkmads/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
